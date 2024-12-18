@@ -2,7 +2,7 @@
 // we detect a callback from Spotify by checking for the hash fragment
 import { redirectToAuthCodeFlow, getAccessToken } from "./authCodeWithPkce";
 
-const clientId = "your_client_id";
+const clientId = "2814c5c4e73b47c68c4db4e78cd9816f";
 const params = new URLSearchParams(window.location.search);
 const code = params.get("code");
 
